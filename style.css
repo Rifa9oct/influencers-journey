@@ -132,11 +132,12 @@ h3{
     color: #18191F;
 }
 h6{
-    margin-left: 71.5rem;
+    text-align: right;
     color: rgba(224, 44, 109, 0.87);
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 100px;
+    margin-right: 13.31rem;
 }
 /* Featured section related style */
 .featured{
@@ -181,4 +182,60 @@ h6{
 }
 .influncer img{
     padding: 17px 16px 0px 0px;
+}
+/* Responsive media query */
+@media screen and (max-width: 576px) {
+    nav > ul{
+        display: none;       
+    }
+    .logos{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .bannar{
+        flex-direction: column-reverse; 
+        text-align: center;       
+    }
+    .bannar img{
+        width: 100%;
+    }
+    .bannar p{
+        font-size: 14px;
+    }
+    .bannar-btn{
+        font-weight: 500;
+    }
+    .featured{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px 16px;
+    }
+    .featured img{
+        width: 100%;
+    }
+    .featured h2{
+        font-size: 24px;
+    }
+    .influncer h2{
+        font-size: 16px;
+    }
+    .popular{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        margin-top: 20px;
+        justify-self: center;
+    }
+    .popular-title{
+        font-size: 16px;
+    }
+    .row-item{
+        margin: 0px auto;
+    }
+    h1{
+        margin: 0px;
+        font-size: 28px;
+    }
+    h6{
+        margin-right: 7.5rem;
+    }
 }
