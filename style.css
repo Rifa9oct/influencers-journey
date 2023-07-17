@@ -162,3 +162,23 @@ h6{
     font-size: 38px;
     font-weight: 700;
 }
+/* Influncer section related style */
+.influncer{
+    text-align: center;
+    background: #0A0826;
+    padding: 50px 0px;
+    margin-top: 100px;
+}
+.influncer h2{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.influncer p{
+    color:  #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+}
+.influncer img{
+    padding: 17px 16px 0px 0px;
+}
