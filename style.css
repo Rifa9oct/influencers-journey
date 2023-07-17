@@ -136,4 +136,29 @@ h6{
     color: rgba(224, 44, 109, 0.87);
     font-size: 16px;
     font-weight: 700;
+    margin-bottom: 100px;
+}
+/* Featured section related style */
+.featured{
+    display: flex;
+    gap: 96px;
+    margin: 0px 10.31rem;
+    align-items: center;
+}
+.featured button{
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    padding: 10px 24px;
+    font-weight: 700;
+}
+.featured p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+.featured h2{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
 }
