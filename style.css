@@ -63,3 +63,18 @@ p{
 .icon{
     padding-left: 7px;
 }
+/* Logos style */
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    padding: 35px 0px;
+    border-top: .5px solid lightgrey;
+    border-bottom: .5px solid lightgrey;
+    margin: 0rem 10.31rem 6.35rem;
+}
+.logos img{
+    width: 6rem;
+    height: 1.75rem;
+}
