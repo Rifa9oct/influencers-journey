@@ -66,13 +66,10 @@ p{
 /* Logos style */
 .logos{
     display: flex;
-    justify-content: space-evenly;
+    gap: 3.75rem;
+    justify-content: center;
     align-items: center;
-    background: white;
-    padding: 35px 0px;
-    border-top: .5px solid lightgrey;
-    border-bottom: .5px solid lightgrey;
-    margin: 0rem 10.31rem 6.35rem;
+    margin-bottom: 6.25rem;
 }
 .logos img{
     width: 6rem;
