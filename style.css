@@ -2,12 +2,15 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
+.common-color{
+    color: #3A3A3A;
+}
+/* Nav bar related style */
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 5.4rem 7.5rem 0rem;
-    color: #3A3A3A;
+    margin-top: 5.4rem;   
 }
 nav > ul{
     display: flex;
@@ -21,4 +24,42 @@ li{
 a{
     color: #3A3A3A;
     text-decoration: none;
+}
+/* Bannar related style */
+.bannar{
+    display: flex;
+    gap: 8.31rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3.13rem 7.5rem 4.31rem 8.25rem;
+}
+h1{
+    font-size: 52px;
+    margin: 0px;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0px;
+}
+.bannar-btn{
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: #FFF;
+    font-size: 16px; 
+    font-weight: 700;
+    border: none;   
+}
+.bannar img{
+    background-image: url('images/Circle\ design.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 30px 30px 2px;
+}
+.primary-color{
+    background: #E02C6D;
+}
+.icon{
+    padding-left: 7px;
 }
